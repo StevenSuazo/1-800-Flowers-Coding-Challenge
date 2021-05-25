@@ -1,0 +1,36 @@
+.PostListItem {
+  display: flex;
+  width: 800px;
+  border-bottom: 2px solid #eeeeee;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding: 1rem;
+  border: none;
+  background-color: inherit;
+}
+
+.PostListItem:hover {
+  text-decoration: none;
+  cursor: initial;
+  background-color: rgb(240, 240, 240);
+}
+
+.PostListItem-text {
+  width: 85%;
+  font-size: 1.2rem;
+}
+
+.PostListItem-text h2 {
+  font-weight: bold;
+}
+
+.modal-background {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.PostListItem-modal-true {
+  opacity: 1;
+  pointer-events: showing;
+}

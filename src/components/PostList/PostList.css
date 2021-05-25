@@ -1,0 +1,64 @@
+.PostList {
+  display: flex;
+  width: 70%;
+  height: 80%;
+}
+
+.PostList-sidebar {
+  background: #9575cd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+    inset 0 0 25px #7e57c2;
+  z-index: 2;
+}
+
+.PostList-title {
+  font-size: 3rem;
+  margin: 2rem;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+}
+.PostList-title span {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.PostList-sidebar h2 {
+  color: black;
+}
+
+.PostList-sidebar img {
+  width: 90%;
+  border-radius: 3%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.PostList-mainbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PostList-posts {
+  height: 100%;
+  background: white;
+  align-self: center;
+  /* width: 50%; */
+  overflow: scroll;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.PostList-search {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+input:focus {outline:0;}
