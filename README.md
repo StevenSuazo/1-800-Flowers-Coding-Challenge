@@ -31,6 +31,7 @@ npm install
 ```
 
 4. Start app:
+
 _This will run both the server and the frontend builder (make sure localhost 5000 and 3000 are available)_
 
 ```
