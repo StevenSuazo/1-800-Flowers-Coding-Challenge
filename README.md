@@ -14,17 +14,14 @@
 1. Clone repository:
 
 ```
-git clone -------
-
-or
-
-git clone -----
-```
-
-2. CD into folder:
+git clone https://github.com/StevenSuazo/1-800-Flowers-Coding-Challenge.git
 
 ```
-cd ------
+
+2. Enter into folder:
+
+```
+cd 1-800-Flowers-Coding-Challenge
 ```
 
 3. Install dependencies:
@@ -34,9 +31,8 @@ npm install
 ```
 
 4. Start app:
+_This will run both the server and the frontend builder (make sure localhost 5000 and 3000 are available)_
 
 ```
 npm start
 ```
-
-*This will run both the server and the frontend builder (make sure localhost 5000 and 3000 are available)
