@@ -9,6 +9,7 @@ const PostList = () => {
 
   const dispatch = useDispatch();
 
+  //dispatch the getPost action when page loads
   useEffect(() => {
     dispatch(getPost());
   }, [dispatch]);

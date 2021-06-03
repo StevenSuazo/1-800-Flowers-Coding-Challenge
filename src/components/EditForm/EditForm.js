@@ -14,6 +14,10 @@ const EditForm = ({ id, title, body }) => {
     dispatch(setUpdatePost({ ...inputs }));
   };
 
+  // const handleUpdate = () => {
+  //   dispatch(deletePost({ ...inputs }));
+  // };
+
   return (
     <Form>
       <Form.Group>
@@ -38,6 +42,9 @@ const EditForm = ({ id, title, body }) => {
       <Button variant="success" type="button" onClick={handleUpdate}>
         Save Changes
       </Button>
+      {/* <Button variant="success" type="button" onClick={handleDelete}>
+        delete
+      </Button> */}
     </Form>
   )
 }
